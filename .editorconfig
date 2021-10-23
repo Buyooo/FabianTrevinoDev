@@ -72,6 +72,7 @@ dotnet_diagnostic.RemoveUnnecessaryImportsFixable.severity=warning
 
 # IDE0005: Using directive is unnecessary.
 dotnet_diagnostic.IDE0005.severity = warning
+dotnet_diagnostic.IDE0073.severity=error
 
 [*.{cs,vb}]
 indent_style=tab
