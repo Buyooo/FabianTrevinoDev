@@ -1,5 +1,23 @@
 ﻿@import '~bootstrap/scss/bootstrap';
 
+/* Variables */
+$site-vertical-padding: 5vh;
+
 #header-container {
-    padding-top: 50px;
+    padding-top: $site-vertical-padding;
+}
+
+#footer-container {
+    padding-bottom: $site-vertical-padding;
+}
+
+.footer-icon {
+    margin: 0 10px 0 10px;
+    filter: invert(47%) sepia(13%) saturate(288%) hue-rotate(167deg) brightness(92%) contrast(91%);
+}
+
+.footer-icon:hover {
+    -moz-filter: none;
+    -webkit-filter: none;
+    filter: none;
 }
