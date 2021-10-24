@@ -21,3 +21,23 @@ $site-vertical-padding: 5vh;
     -webkit-filter: none;
     filter: none;
 }
+
+body {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+html {
+    font-size: 1rem;
+}
+
+@media (min-width: 576px) {
+    html {
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 1.5rem;
+    }
+}
