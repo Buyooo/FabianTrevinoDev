@@ -14,13 +14,13 @@
     <RunAnalyzersDuringBuild>true</RunAnalyzersDuringBuild>
   </PropertyGroup>
 
+  <Target Name="Create bundles" BeforeTargets="BeforeBuild">
+    <Exec Command="npm run build" />
+  </Target>
+
   <ItemGroup>
     <None Remove=".gitignore" />
     <None Remove="LICENSE.md" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="wwwroot\" />
   </ItemGroup>
 
 </Project>

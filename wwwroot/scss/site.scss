@@ -1,0 +1,62 @@
+﻿@import '~bootstrap/scss/bootstrap';
+
+/* Variables */
+$site-vertical-padding: 5vh;
+
+header {
+    margin-bottom: 30px;
+}
+
+#header-container {
+    padding-top: $site-vertical-padding;
+}
+
+#footer-container {
+    padding-bottom: $site-vertical-padding;
+}
+
+.footer-icon {
+    margin: 0 10px 0 10px;
+    filter: invert(47%) sepia(13%) saturate(288%) hue-rotate(167deg) brightness(92%) contrast(91%);
+}
+
+.footer-icon:hover {
+    -moz-filter: none;
+    -webkit-filter: none;
+    filter: none;
+}
+
+body {
+    font-family: 'Share Tech Mono', monospace;
+    background: #f8f8ff;
+}
+
+html {
+    font-size: 1rem;
+}
+
+@media (min-width: 576px) {
+    html {
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 1.5rem;
+    }
+}
+
+#banner {
+    max-width: 80%;
+}
+
+#portrait {
+    max-width: 50%;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
