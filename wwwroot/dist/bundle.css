@@ -7187,6 +7187,9 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 /* Variables */
+header {
+  margin-bottom: 30px; }
+
 #header-container {
   padding-top: 5vh; }
 
@@ -7215,4 +7218,7 @@ html {
 @media (min-width: 768px) {
   html {
     font-size: 1.5rem; } }
+
+#banner {
+  max-width: 80%; }
 

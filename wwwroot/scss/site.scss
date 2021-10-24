@@ -3,6 +3,10 @@
 /* Variables */
 $site-vertical-padding: 5vh;
 
+header {
+    margin-bottom: 30px;
+}
+
 #header-container {
     padding-top: $site-vertical-padding;
 }
@@ -40,4 +44,8 @@ html {
     html {
         font-size: 1.5rem;
     }
+}
+
+#banner {
+    max-width: 80%;
 }
